@@ -1,8 +1,8 @@
 function calcular() {
-    var num1 = parseFloat(document.getElementById("num1").value);
-    var num2 = parseFloat(document.getElementById("num2").value);
-    var operacao = document.getElementById("operacao").value;
-    var resultado = document.getElementById("resultado");
+    num1 = parseFloat(document.getElementById("num1").value);
+    num2 = parseFloat(document.getElementById("num2").value);
+    operacao = document.getElementById("operacao").value;
+    resultado = document.getElementById("resultado");
 
     switch (operacao) {
     case "+":
